@@ -1,0 +1,32 @@
+.wrapper{
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(3,6fr);
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+}
+
+div{
+    background-color: rgb(250, 165, 134);
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 700;
+    border:1px solid black;
+}
+
+div:hover{
+    background-color: rgb(236, 201, 188);
+    cursor: pointer;
+}
+
+.uno{
+    grid-column-start: 1;
+    grid-column-end:4;
+}
+
+.seis{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: coral
+}
+
