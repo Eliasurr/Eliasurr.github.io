@@ -14,12 +14,33 @@
                 <legend>
                     Alta usuario
                 </legend>
-            <form action="AlgoDeJava.html">
+            <form action="AlgoDeJava.html" method="post">
                 <input type="file" name="nombre-del-file"><br><br>
                 <input type="hidden" value="valorOculto" name="campoHidden">
                 
                 <input type="text" name="nombre" placeholder="Nombre" required><br><br>
-                <input type="url" name="url"><br><br>
+                <input type="url" name="url" placeholder="URL"><br><br>
+                
+                <textarea></textarea><br><br>
+                <select multiple name="selectMultiple">
+                    <optgroup label="Animales">
+                        <option>Perro</option>
+                        <option>Gato</option>
+                        <option>Lllama</option>
+                    </optgroup>
+                    <optgroup label="Colores">
+                        <option>Rojo</option>
+                        <option>Verde</option>
+                        <option>Azul</option>
+                    </optgroup>
+                </select><br><br>
+                <input list="browser" name="dataBrowser">
+                <datalist id="browser" name="dataBroswer">
+                    <option>IE</option>
+                    <option>Chrome</option>
+                    <option>Firefox</option>
+                </datalist>
+                </input><br><br>
                 <input type="submit" value="Enviar">
             </form>
             </fieldset>
