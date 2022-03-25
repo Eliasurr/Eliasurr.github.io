@@ -1,61 +1,22 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.flex__container{
-    display: flex;
-    flex-direction: column;
-    height: 750px;
-    background-color: #aaa;
-}
-
-.header{
-    background-color: red;
-    height: 85px;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
+.flex-container{
+    display:flex;
+    background-color: burlywood;
+    padding:10px;
+    flex-flow: row wrap;
+    height: 400px;
     justify-content: center;
-    border: 2px solid black;
+    align-items: center;
 }
 
-.footer{
-    background-color: blue;
-    height: 55px;
+
+.flex-container div{
+    background-color: gainsboro;
+    width: 100px;
+    margin:10px;
     text-align: center;
-    font-size: 50px;
-    font-weight: 700;
-    position: absolute;
-    top: 695px;
-    width: 100%;
+    line-height: 75px;
+    font-size: 30px;
     border: 2px solid black;
+    border-radius: 5px;
 }
-
-.articulo{
-    background-color: greenyellow;
-    height: 610px;
-    width: 75%;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 700;
-    border: 2px solid black;
-}
-
-.aside{
-    background-color: #ff00ff;
-    height: 610px;
-    width: 25%;
-    align-self: flex-end;
-    position: absolute;
-    top: 87px;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 700;
-    border: 2px solid black;
-}
-
 
