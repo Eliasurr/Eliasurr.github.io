@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&display=swap');
+
+body{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+
+.titulo{
+    font-size: 60px;
+}
+
+nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul li{
+    list-style-type: none;
+}
