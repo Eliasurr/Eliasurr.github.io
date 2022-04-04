@@ -1,0 +1,26 @@
+/* RESET */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #bbb;
+}
+
+.divBox{
+    background-color: #441100;
+    color:white;
+    margin: 20px 0 20px 0;
+    border: 2px solid blue;
+    padding: 30px 10px;
+    text-align: center;
+    width: 500px;
+    display: inline-block;
+}
+
+#sec1{
+    background-color: #aa1100;
+}

@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+.links li a{
+    list-style-type: none;
+}
+
+.links li a:visited{
+    color:red;
+}
+
+/* Eleccion de estilo por posicion */
+
+div p:nth-child(odd){
+    color: blue;
+}
+
+table{
+    border: 1px solid black;
+    margin: 50px auto;
+    width: 500px;
+    text-align: center;
+}
+
+table tr:nth-child(odd){
+    color: red;
+}
+
+table tr:nth-child(even){
+    color:blue;
+}
+
+th{
+    color: #000;
+    border-bottom: 1px solid black;
+}
+
+h1::before{
+    content: "#";
+}
+
+h1::first-letter{
+    font-size: 40px;
+    border: 2px solid orange;
+
+}
+
+/* Selector por atributo */
+[href]{
+    color:red;
+    background-color: black;
+}
+
+/* Selector por atributo y contenido exacto */
+[href="Nosotros.html"]{
+    color:yellow;
+    background-color: #000;
+}
+
+
+/* Selector por atributo y que empience con... */
+[href^="i"]{
+    color: greenyellow;
+    background-color: #000;
+}
+
+/* Selector por atributo y que contenga... */
+[href*="s"]{
+    text-decoration: none;
+}
+
+/* Selector por atributo y que termine en... */
+[href$="l"]{
+    background-color: aqua;
+}
