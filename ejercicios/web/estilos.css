@@ -81,7 +81,7 @@ hr{
     background: url(img/showcase2.jpg) no-repeat center center/cover;
     height: 550px;
     display: flex;
-    padding-bottom: 50px;
+    padding: 50px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
@@ -244,4 +244,12 @@ hr{
         grid-template-columns: repeat(2,1fr);
     }
 
+    .cards-banner-one .content,
+    .cards-banner-two .content{
+        width: 80%;
+    }
+
+    .footer-links .footer-container{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
