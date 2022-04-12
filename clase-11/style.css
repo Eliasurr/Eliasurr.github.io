@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.container-fluid{
+    background: hsl(250, 10%, 10%);
+    height: 950px;
+}
 
 .nav{
     color:white;
@@ -11,6 +15,7 @@
     font-size: 35px;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .nav__li:hover{
