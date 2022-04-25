@@ -22,3 +22,4 @@ console.log(flag, typeof flag);
 const nombres = []; //array vacio
 
 const materias = ['matematica', 'lengua', 'ingles', 'fisica'];
+
