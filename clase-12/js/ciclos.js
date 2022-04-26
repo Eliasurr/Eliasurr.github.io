@@ -105,5 +105,5 @@ for(const persona of personas2){
 //Metodo de los arrays
 
 for(const aux of cargaErronea){
-    
+    console.log(aux);
 }
