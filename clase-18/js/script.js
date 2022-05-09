@@ -42,7 +42,7 @@ body.addEventListener('load', ()=>{
     const articulos = localStorage.getItem('articulos');
 // 2- convertir el texto a objeto con JSON.parse(...)
     const arrayArticulos = JSON.parse(articulos);
-// 3- invocar una funcion que dibujo los <li> dentro del <ul>
+// 3- invocar una funcion que dibuje los <li> dentro del <ul>
     for(const texto of arrayArticulos){
        agregarLiAUl(texto);
     }
