@@ -26,3 +26,6 @@ function adder(first){
 const primerLlamado = adder(5);
 
 primerLlamado(10);
+
+
+console.log(primerLlamado);
